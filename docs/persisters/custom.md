@@ -6,8 +6,8 @@ to the right page!
 ## Creating a Custom Persister
 
 The `@pollyjs/persister` package provides an extendable base persister class that
-contains core logic dependent on by the [REST](persisters/rest)
-& [Local Storage](persisters/local-storage) persisters.
+contains core logic dependent on by the [REST](persisters/rest.md)
+& [Local Storage](persisters/local-storage.md) persisters.
 
 ### Installation
 

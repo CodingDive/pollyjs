@@ -27,7 +27,7 @@ server.patch('/ping').off('request');
 
 ## any
 
-Declare [Events & Middleware](server/events-and-middleware#middleware) globally
+Declare [Events & Middleware](server/events-and-middleware.md#middleware) globally
 or for a specific route.
 
 __Example__

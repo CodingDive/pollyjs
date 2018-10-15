@@ -7,7 +7,7 @@ parent module(s).
 
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
-| config | `Object` | [Configuration](configuration) object |
+| config | `Object` | [Configuration](configuration.md) object |
 
 ## Usage
 

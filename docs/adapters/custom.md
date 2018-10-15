@@ -6,8 +6,8 @@ to the right page!
 ## Creating a Custom Adapter
 
 The `@pollyjs/adapter` package provides an extendable base adapter class that
-contains core logic dependent on by the [Fetch](adapters/fetch)
-& [XHR](adapters/xhr) adapters.
+contains core logic dependent on by the [Fetch](adapters/fetch.md)
+& [XHR](adapters/xhr.md) adapters.
 
 ### Installation
 

@@ -18,8 +18,8 @@ yarn add @pollyjs/core -D
 
 Once instantiated, Polly will hook into native implementations (such as fetch & XHR)
 via adapters to intercept any outgoing requests. Depending on its current
-[mode](configuration#mode) as well as rules defined via the
-[client-side server](server/overview), the request will either be replayed, recorded,
+[mode](configuration.md#mode) as well as rules defined via the
+[client-side server](server/overview.md), the request will either be replayed, recorded,
 passed-through, or intercepted.
 
 ## Adapters & Persisters
@@ -50,12 +50,12 @@ yarn add @pollyjs/persister-{name} -D
 ## Setup _(Browsers Only)_
 
 In order to write to disk from the browser, Polly will make networks requests to a
-local server using the [REST Persister](persisters/rest). If you don't want to use
+local server using the [REST Persister](persisters/rest.md). If you don't want to use
 the provided CLI and you have your own express server, see the
-[Express Integrations](node-server/express-integrations) documentation on
+[Express Integrations](node-server/express-integrations.md) documentation on
 integrating with your existing server.
 
-Using the installed [CLI](cli/overview), run the [listen](cli/commands#listen)
+Using the installed [CLI](cli/overview.md), run the [listen](cli/commands.md#listen)
 command to start up the node server.
 
 ```bash
@@ -64,7 +64,7 @@ polly listen
 ```
 
 Optionally, Polly can persist to local storage which would not require setting up
-any server integrations. See the [Local Storage Persister](persisters/local-storage)
+any server integrations. See the [Local Storage Persister](persisters/local-storage.md)
 documentation for more details.
 
 ## Usage
@@ -206,7 +206,7 @@ Every polly instance has a reference to a client-side server which you can lever
 to gain full control of all HTTP interactions as well as dictate how the Polly instance
 should handle them.
 
-?> __TIP:__ Check out the [Server](server/overview) documentation for more details and examples!
+?> __TIP:__ Check out the [Server](server/overview.md) documentation for more details and examples!
 
 Lets take a look at how we can modify our previous test case to test against a
 failed sign in attempt.
@@ -260,6 +260,6 @@ describe('Netflix Homepage', function() {
 
 ## Test Helpers
 
-Using Mocha or QUnit? We got you covered! Checkout the [Mocha](test-frameworks/mocha) or
-[QUnit](test-frameworks/qunit) documentation pages for detailed instructions
+Using Mocha or QUnit? We got you covered! Checkout the [Mocha](test-frameworks/mocha.md) or
+[QUnit](test-frameworks/qunit.md) documentation pages for detailed instructions
 on how to use the provided test helpers.

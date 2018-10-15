@@ -28,7 +28,7 @@ server.get('/coverage').passthrough();
 
 ## Defining Routes
 
-The server uses [Route Recognizer](https://github.com/tildeio/route-recognizer)
+The server uses [Route Recognizer](https://github.com/tildeio/route-recognizer.md)
 under the hood. This allows you to define static routes, as well as dynamic,
 and starred segments.
 

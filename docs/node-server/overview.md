@@ -1,7 +1,7 @@
 # Overview
 
 The `@pollyjs/node-server` package provides a standalone node server as well as
-an express integration to be able to support the [REST Persister](persisters/rest)
+an express integration to be able to support the [REST Persister](persisters/rest.md)
 so recordings can be saved to and read from disk.
 
 ## Installation
@@ -21,7 +21,7 @@ yarn add @pollyjs/node-server -D
 ## Server
 
 This packages includes a fully working standalone node server that is pre-configured
-with the necessary APIs and middleware to support the [REST Persister](persisters/rest).
+with the necessary APIs and middleware to support the [REST Persister](persisters/rest.md).
 
 The Server constructor accepts a configuration object that can be a combination
 of the below listed Server & API options. Once instantiated, you will have
@@ -111,7 +111,7 @@ The namespace to mount the polly API on. This should really only be changed
 if there is a conflict with the default apiNamespace.
 
 !> If modified, you must provide the new `apiNamespace` to the client side Polly
-instance via the [Persister Options](persisters/rest#apinamespace)
+instance via the [Persister Options](persisters/rest.md#apinamespace)
 
 ```js
 new Server({

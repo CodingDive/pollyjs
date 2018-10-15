@@ -10,7 +10,7 @@ function can be used or a `Promise` can be returned.
 
 ### on
 
-Register an [event](server/events-and-middleware) handler.
+Register an [event](server/events-and-middleware.md) handler.
 
 ?> __Tip:__ You can attach multiple handlers to a single event. Handlers will be
 called in the order they were declared.
@@ -34,7 +34,7 @@ server
 
 ### once
 
-Register a one-time [event](server/events-and-middleware) handler.
+Register a one-time [event](server/events-and-middleware.md) handler.
 
 ?> __Tip:__ You can attach multiple handlers to a single event. Handlers will be
 called in the order they were declared.
@@ -58,7 +58,7 @@ server
 
 ### off
 
-Un-register an [event](server/events-and-middleware) handler. If no handler
+Un-register an [event](server/events-and-middleware.md) handler. If no handler
 is specified, all event handlers are un-registered for the given event name.
 
 | Param | Type | Description |
@@ -81,9 +81,9 @@ server
 
 ### intercept
 
-Register an intercept handler. Once set, the [request](server/request) will
+Register an intercept handler. Once set, the [request](server/request.md) will
 never go to server but instead defer to the provided handler to handle
-the [response](server/response). If multiple intercept handlers have been
+the [response](server/response.md). If multiple intercept handlers have been
 registered, each handler will be called in the order in which it was registered.
 
 | Param | Type | Description |
@@ -190,7 +190,7 @@ this to create a common recording file for them.
 
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
-| recordingName | `String` | Name of the [recording](api#recordingName) to store the recordings under. |
+| recordingName | `String` | Name of the [recording](api.md#recordingName) to store the recordings under. |
 
 __Example__
 
@@ -218,7 +218,7 @@ Polly instance's config.
 
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
-| config | `Object` | [Configuration](configuration) object |
+| config | `Object` | [Configuration](configuration.md) object |
 
 __Example__
 

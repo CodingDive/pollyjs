@@ -6,8 +6,8 @@ Create a new Polly instance.
 
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
-| recordingName | `String` | Name of the [recording](api#recordingName) to store the recordings under. |
-| config | `Object` | [Configuration](configuration) object |
+| recordingName | `String` | Name of the [recording](api.md#recordingName) to store the recordings under. |
+| config | `Object` | [Configuration](configuration.md) object |
 | __Returns__ | `Polly` | &nbsp; |
 
 __Example__
@@ -94,7 +94,7 @@ recordings
 _Type_: `String`
 _Default_: `'replay'`
 
-The current [mode](configuration#mode) polly is in.
+The current [mode](configuration.md#mode) polly is in.
 
 __Example__
 
@@ -118,7 +118,7 @@ The persister used to find and save recordings.
 _Type_: `Server`
 _Default_: `Server`
 
-Every polly instance has a reference to a [client-side server](server/overview) which you can leverage
+Every polly instance has a reference to a [client-side server](server/overview.md) which you can leverage
 to gain full control of all HTTP interactions as well as dictate how the Polly instance
 should handle them.
 
@@ -137,7 +137,7 @@ Configure polly with the given configuration object.
 
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
-| config | `Object` | [Configuration](configuration) object |
+| config | `Object` | [Configuration](configuration.md) object |
 
 __Example__
 
@@ -171,7 +171,7 @@ polly.replay();
 
 Puts polly in a paused mode. All requests going forward will pass through
 and will not be recorded or replayed. The previous mode will be saved and can
-be restored by calling [play](api#play)
+be restored by calling [play](api.md#play)
 
 __Example__
 
@@ -183,7 +183,7 @@ polly.pause();
 
 ### play
 
-Restores the mode to the one before [pause](api#pause) was called.
+Restores the mode to the one before [pause](api.md#pause) was called.
 
 __Example__
 

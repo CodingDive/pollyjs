@@ -9,7 +9,7 @@ new Polly('<Recording Name>', {
 });
 ```
 
-Or via the [configure](api#configure) method on the instance:
+Or via the [configure](api.md#configure) method on the instance:
 
 ```js
 const polly = new Polly('<Recording Name>');

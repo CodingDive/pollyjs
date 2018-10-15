@@ -29,4 +29,4 @@ module.exports = config;
 
 ## Ember CLI
 
-See the [Ember CLI Addon](frameworks/ember-cli) documentation for more details.
+See the [Ember CLI Addon](frameworks/ember-cli.md) documentation for more details.

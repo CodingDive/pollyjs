@@ -6,7 +6,7 @@ in the near future!
 ## listen
 
 Start up a node server and listen for Polly requests via the
-[REST Persister](persisters/rest) to be able to record and replay recordings
+[REST Persister](persisters/rest.md) to be able to record and replay recordings
 to and from disk.
 
 ### Usage

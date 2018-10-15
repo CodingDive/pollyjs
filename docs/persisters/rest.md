@@ -19,8 +19,8 @@ yarn add @pollyjs/persister-rest -D
 
 ## Setup
 
-This library provides a fully functional [node server](node-server/overview)
-as well as a [CLI](cli/overview) to get you up and running.
+This library provides a fully functional [node server](node-server/overview.md)
+as well as a [CLI](cli/overview.md) to get you up and running.
 
 ## Usage
 
@@ -68,7 +68,7 @@ The namespace the Polly API is mounted on. This should really only be changed
 if there is a conflict with the default apiNamespace.
 
 !> If modified, you must provide the new `apiNamespace` to the node server
-via the [Node Server apiNamespace](node-server/overview#apinamespace) configuration
+via the [Node Server apiNamespace](node-server/overview.md#apinamespace) configuration
 option.
 
 __Example__

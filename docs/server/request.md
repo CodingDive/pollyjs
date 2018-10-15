@@ -26,7 +26,7 @@ removed.
 |  ---  | ---  |     ---     |
 | name | `String` | The name of the header |
 | value | `String` | The value for the header |
-| __Returns__ | [Request](server/request) | The current request |
+| __Returns__ | [Request](server/request.md) | The current request |
 
 __Example__
 
@@ -42,7 +42,7 @@ altogether.
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
 | headers | `Object` | The headers to add to the request |
-| __Returns__ | [Request](server/request) | The current request |
+| __Returns__ | [Request](server/request.md) | The current request |
 
 __Example__
 
@@ -75,7 +75,7 @@ Sets the request's Content Type.
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
 | value | `String` | &nbsp; |
-| __Returns__ | [Request](server/request) | The current request |
+| __Returns__ | [Request](server/request.md) | The current request |
 
 ### send
 
@@ -88,7 +88,7 @@ Sets the request's body.
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
 | body | `any` | &nbsp; |
-| __Returns__ | [Request](server/request) | The current request |
+| __Returns__ | [Request](server/request.md) | The current request |
 
 __Example__
 
@@ -107,7 +107,7 @@ been set already, and call [send](#send) with the stringified object.
 | Param | Type | Description |
 |  ---  | ---  |     ---     |
 | obj | `Object` | Object to send |
-| __Returns__ | [Request](server/request) | The current request |
+| __Returns__ | [Request](server/request.md) | The current request |
 
 __Example__
 

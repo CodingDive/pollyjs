@@ -20,8 +20,8 @@ yarn add @pollyjs/adapter-puppeteer -D
 
 ## Usage
 
-Use the [configure](api#configure), [connectTo](api#connectto), and
-[disconnectFrom](api#disconnectfrom) APIs to connect or disconnect from the
+Use the [configure](api.md#configure), [connectTo](api.md#connectto), and
+[disconnectFrom](api.md#disconnectfrom) APIs to connect or disconnect from the
 adapter.
 
 ```js

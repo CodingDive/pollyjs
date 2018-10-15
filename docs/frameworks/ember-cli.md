@@ -1,12 +1,12 @@
 # Ember CLI
 
 Installing the `@pollyjs/ember` addon will import and vendor the necessary
-Polly.JS packages as well as register the [Express API](node-server/express-integrations)
-required by the [REST Persister](persisters/rest).
+Polly.JS packages as well as register the [Express API](node-server/express-integrations.md)
+required by the [REST Persister](persisters/rest.md).
 
 ?> __NOTE:__ By default, this addon installs and registers the
-[XHR](adapters/xhr) & [Fetch](adapters/fetch) adapters as well as the
-[REST](persisters/rest) & [Local Storage](persisters/local-storage) persisters.
+[XHR](adapters/xhr.md) & [Fetch](adapters/fetch.md) adapters as well as the
+[REST](persisters/rest.md) & [Local Storage](persisters/local-storage.md) persisters.
 
 ## Installation
 
@@ -16,7 +16,7 @@ ember install @pollyjs/ember
 
 ## Configuration
 
-Addon and [server API configuration](node-server/overview#api-configuration) can be
+Addon and [server API configuration](node-server/overview.md#api-configuration) can be
 be specified in `ember-cli-build.js`. The default configuration options are shown
 below.
 
@@ -42,7 +42,7 @@ module.exports = function(defaults) {
 ## Usage
 
 Once installed and configured, you can import and use Polly as documented. Check
-out the [Quick Start](quick-start#usage) documentation to get started.
+out the [Quick Start](quick-start.md#usage) documentation to get started.
 
 ?> For an even better testing experience, check out the provided
-[QUnit Test Helper](test-frameworks/qunit)!
+[QUnit Test Helper](test-frameworks/qunit.md)!
